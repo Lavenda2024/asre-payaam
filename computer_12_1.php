@@ -57,7 +57,7 @@
                                         <input type='submit' value='Enter'>
                                     </form>
                                 </section>";
-                    echo "<form action='computer_12.php' method='post'>
+                    echo "<form action='computer_12_1.php' method='post'>
                                 <input name='guide1' type='submit' value='راهنمایی'>
                               </form>";
                     if (isset($_POST["guide1"])) {
@@ -69,7 +69,7 @@
                             fwrite($f1, 1);
                             fclose($f1);
                             echo "<p>پاسخ شما درست می باشد</p>";
-                            echo "<form action='computer_12.php' method='post'>
+                            echo "<form action='computer_12_1.php' method='post'>
                                         <label>پرسش 2</label>
                                         <input type='submit'>
                                       </form>";
@@ -91,7 +91,7 @@
                             fwrite($f1, 2);
                             fclose($f1);
                             echo "<p>پاسخ شما درست می باشد</p>";
-                            echo "<form action='computer_12.php' method='post'>
+                            echo "<form action='computer_12_1.php' method='post'>
                                         <label>پرسش 3</label>
                                         <input type='submit'>
                                       </form>";
@@ -107,7 +107,7 @@
                                         <input type='submit' value='Enter'>
                                     </form>
                                 </section>";
-                    echo "<form action='computer_12.php' method='post'>
+                    echo "<form action='computer_12_1.php' method='post'>
                                 <input name='guide3' type='submit' value='راهنمایی'>
                               </form>";
                     if (isset($_POST["guide3"])) {
@@ -119,7 +119,7 @@
                             fwrite($f1, 3);
                             fclose($f1);
                             echo "<p>پاسخ شما درست می باشد</p>";
-                            echo "<form action='computer_12.php' method='post'>
+                            echo "<form action='computer_12_1.php' method='post'>
                                         <label>پرسش 4</label>
                                         <input type='submit'>
                                     </form>";
